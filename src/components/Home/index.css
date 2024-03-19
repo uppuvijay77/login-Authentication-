@@ -1,0 +1,45 @@
+/* Write your CSS code here */
+.home-container {
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  padding-left: 40px;
+}
+.home-container-content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+}
+.content {
+  width: 50%;
+  
+}
+.home-container-heading {
+  font-family: 'Roboto';
+  font-size: 38px;
+  font-weight: bold;
+  color: #1e293b;
+}
+.home-container-description {
+  font-family: 'Roboto';
+  font-size: 16px;
+  color: #64748b;
+  margin-right: 40px;
+}
+.home-container-btn {
+  background-color: #0967d2;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  padding: 6px;
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 14px;
+  width: 100px;
+}
+.home-container-image {
+  width: 40%;
+  margin-left: 40px;
+  margin-top: 50px;
+}
